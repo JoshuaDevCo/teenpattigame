@@ -1,0 +1,96 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(200, 200, 200); */
+    background-color: rgba(0,0,0,0.4)!important;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+  }
+  
+  .modalContainer {
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px; */
+    box-shadow: rgb(72, 72, 72) 8px 8px 16px, rgb(0, 0, 0) -8px -8px 16px;
+    background-color:  #17181a;
+    padding-top: 0px;
+    background: #8b8b8b;
+    margin-bottom: 33%;
+    min-width: 25%;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+    padding-top: 1.5%;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    /* border: none; */
+    /* font-size: 25px; */
+    cursor: pointer;
+    width: 15%;
+    background: red;
+    border-radius: 8px;
+    border-radius: 7px;
+background: #8b8b8b;
+box-shadow: inset 5px 5px 17px #474747,
+            inset -5px -5px 17px #cfcfcf;
+  }
+  
+  .modalContainer .body {
+    /* flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.7rem; */
+    /* text-align: center; */ 
+  }
+
+  .modalContent{
+    padding:5%;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+  }
+  
+  .modalContainer .footer button {
+    background-color: transparent;
+    /* border: none; */
+    /* font-size: 25px; */
+    cursor: pointer;
+    padding: 2%;
+    font-weight: bold;
+    background: red;
+    border-radius: 8px;
+    border-radius: 7px;
+background: #8b8b8b;
+box-shadow: inset 5px 5px 17px #474747,
+            inset -5px -5px 17px #cfcfcf;
+            width: 90%;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }

@@ -1,0 +1,37 @@
+.rcntwnrsCont{
+    /* position: absolute; */
+    color: white;
+    display: flex;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.blockWinner{
+    border-radius: 50%;
+    background: #292828;
+    box-shadow: inset 20px 20px 60px #151414,
+                inset -20px -20px 60px #3e3c3c;
+                height: 100%;
+    width: 3%;
+    border-bottom: solid;
+            display: flex;
+            justify-content: center;
+            /* align-content: center; */
+            align-items: center;
+        margin-left:5%;
+        margin-right:5%;
+        font-weight: bold;
+        font-size: x-large;
+}
+
+.winnerClr{
+    color: green;
+}
+.looserClr{
+    color:red;
+}
+.notPlayedClr{
+    color:white;
+}

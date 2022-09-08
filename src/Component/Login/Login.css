@@ -1,0 +1,99 @@
+.loginContainer{
+    height: 100%;
+    width: 100%;
+    background: #212529;
+    position: absolute; 
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginParentDiv{
+
+    border-radius: 30px;  
+    background: #282828;
+    box-shadow: inset 35px 35px 70px #131313,
+            inset -35px -35px 70px #3d3d3d;
+    
+    width: 40%;
+    /* height: 80%; */
+    width: 500px;
+    /* height: 500px; */
+
+}
+
+.loginChildDiv{
+    color: white;
+    padding: 10%;
+
+}
+
+.FR{
+    float: right;
+}
+
+
+    .loginBtn{
+        width: 30%;
+          border-radius: 10px;
+          background: #282828;
+          box-shadow: inset 20px 20px 60px #101010, inset -20px -20px 60px #404040;
+          cursor: pointer;
+          position:relative;
+          display:inline-block;
+        
+    }
+    
+    .loginBtn a{
+        color: #757575!important;
+        font-family: Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #2f2f2f;
+        display: block;
+        position: relative;
+        /* padding: 20px 40px; */
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        text-shadow: 0px 1px 0px #000;
+        filter: dropshadow(color=#000, offx=0px, offy=1px);
+        box-shadow: inset 0 1px 0 #c7bcb0, 0 10px 0 #000000;
+        border-radius: 5px;
+        padding: 3px;
+      }
+      
+      .loginBtn a:active{
+        top:10px;
+        background-color:rgb(20, 233, 215);
+        
+        -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+        -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+        box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+      }
+      
+      .loginBtn:after{
+        content:"";
+        height:100%;
+        width:100%;
+        padding:4px;
+        position: absolute;
+        bottom:-15px;
+        left:-4px;
+        z-index:-1;
+        background-color:#2B1800;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+      }
+
+      .forgotPwd{
+        color:white;
+        justify-content:center;
+        display: flex;
+        text-decoration: underline;
+        cursor: pointer;
+        padding: 1%
+      }
+    

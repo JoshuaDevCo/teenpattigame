@@ -1,0 +1,160 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(200, 200, 200); */
+    background-color: rgba(87, 84, 84, 0.4)!important;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+  }
+  
+  .modalContaineri {
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px; */
+    box-shadow: rgb(72, 72, 72) 8px 8px 16px, rgb(0, 0, 0) -8px -8px 16px;
+    background-color:  #17181a;
+    padding-top: 0px;
+    background: #8b8b8b;
+    width: 80%;
+    height: 70%;
+    background: linear-gradient(145deg, #22272a, #1d2023);
+    box-shadow: 12px 12px 27px #000000, -12px -12px 27px #333534;
+    color:white;
+}
+
+
+  .modalContaineri .bodyi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+
+
+  .modalContaineri .title {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    
+  }
+  .modalContaineri .timeri {
+  color: #929090;
+  font-size: xx-large;
+  font-weight: bold;
+  text-shadow: rgba(15, 15, 15, 0.83) 9px 3px 9px;
+  background: #21201f;
+  box-shadow: rgb(72, 72, 72) 8px 8px 16px, rgb(0, 0, 0) -8px -8px 16px;
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+  
+  .titleCloseBtni {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+    height: 10%;
+  }
+  
+  .titleCloseBtni button {
+    border: none;
+    cursor: pointer;
+    width: 4%;
+
+
+
+
+    border-radius: 50%;
+    background: #202427;
+    box-shadow: inset 8px 8px 16px #0d0e10,
+            inset -8px -8px 16px #333a3e;
+    color: white;
+        
+  }
+  
+
+  .modalContenti{
+    padding:1%;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+  }
+  
+  .modalContainer .footer button {
+    background-color: transparent;
+    /* border: none; */
+    /* font-size: 25px; */
+    cursor: pointer;
+    padding: 2%;
+    font-weight: bold;
+    background: red;
+    border-radius: 8px;
+    border-radius: 7px;
+background: #8b8b8b;
+box-shadow: inset 5px 5px 17px #474747,
+            inset -5px -5px 17px #cfcfcf;
+            width: 90%;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+
+  .winnersection{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #21201f;
+      width: 100%;
+      color:white;
+      margin-top:2%
+  }
+
+  .disableDivi{
+    opacity: 0.3;
+    pointer-events: none;
+    background: #d0cdc8!important;
+    cursor:not-allowed;
+  }
+
+  .rubberDiv{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .rubber {
+    box-shadow: 0 0 0 3px blue, 0 0 0 2px blue inset;  
+    border: 2px solid transparent;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px 2px;
+    line-height: 22px;
+    color: blue;
+    font-size: 24px;
+  
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.4;
+    width: 155px;
+    transform: rotate(-15deg);
+    width: 60%;
+    height: 14%;
+  }
+
+  

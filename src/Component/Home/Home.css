@@ -1,0 +1,648 @@
+/* Use a media query to add a breakpoint at 800px: */
+
+
+
+
+.headerClassHome {
+  height: 90%;
+  width: 100%;
+  background: #212529;
+  /* position: absolute; */
+
+  text-align: center;
+  text-transform: uppercase;
+  /* display: flex !important; */
+  justify-content: center !important;
+  /* align-content: center; */
+  flex-direction: column !important;
+  border-radius: 0px;
+  background: #212529;
+  box-shadow: 11px 11px 33px #242424,
+    -11px -11px 33px #5a5a5a;
+  overflow: hidden;
+
+}
+
+.middleContainerTable {
+  height: 60%;
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 3%
+}
+
+
+
+.playerATable {
+  border-radius: 20px;
+  background-color: rgb(41, 40, 40);
+  /* height: 61%; */
+  /* position: absolute; */
+  width: 40%;
+  margin-left: 3%;
+  height: 100%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: space-between; */
+}
+
+.playerNameText {
+  color: #929090;
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: rgba(195, 195, 195, 0.83) 9px 3px 9px;
+  color: #424242;
+  text-shadow: rgba(0, 0, 0, 0.83) 9px 3px 9px;
+  /* height: 10%; */
+  display: block;
+  border-bottom: solid;
+}
+
+.cardOuterDiv {
+  height: 60%;
+  display: flex;
+  padding: 1%;
+}
+
+.card1 {
+  height: 100%;
+  width: 30%;
+  margin-left: 1.5%;
+  border-radius: 20px;
+  background: (80, 80, 80);
+  box-shadow: rgb(72, 72, 72) 8px 8px 16px, rgb(0, 0, 0) -8px -8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardNumberText {
+  color: #424242;
+  /* font-size: x-large; */
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.83) 9px 3px 9px;
+  /* margin-top: 50%; */
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.card2,
+.card3 {
+  height: 100%;
+  width: 30%;
+  margin-left: 4%;
+  border-radius: 20px;
+  background: (80, 80, 80);
+  box-shadow: rgb(72, 72, 72) 8px 8px 16px, rgb(0, 0, 0) -8px -8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middleLineContainer {
+
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .timer{
+    border-radius: 5px;
+background: #21201f;
+box-shadow: inset 30px 30px 59px #0d0d0c,
+            inset -30px -30px 59px #353332;
+} */
+
+/* .greenTimer{
+    color: #929090; 
+    font-size: xx-large; 
+    font-weight: bold; 
+    text-shadow:  rgba(15, 15, 15, 0.83) 9px 3px 9px;
+    background: #21201f;
+    box-shadow: rgb(72, 72, 72) 8px 8px 16px, rgb(0, 0, 0) -8px -8px 16px;
+
+} */
+.yellowTimer {
+  color: #929090;
+  font-size: xx-large;
+  font-weight: bold;
+  text-shadow: rgba(236, 58, 58, 0.83) 9px 3px 9px;
+  background: #21201f;
+
+}
+
+.redTimer {
+  color: #929090;
+  font-size: xx-large;
+  font-weight: bold;
+  text-shadow: rgba(195, 195, 195, 0.83) 9px 3px 9px;
+  background: #21201f;
+
+
+}
+
+.middleLine {
+  background-color: rgb(41, 40, 40);
+  height: 37%;
+  /* position: absolute; */
+  width: 6%;
+  display: flex;
+  /* align-items: flex-start; */
+  z-index: 2;
+  border-radius: 20px;
+  /* margin-left: 50%; */
+  /* top: 15%; */
+  justify-content: center;
+  margin-bottom: 15%;
+}
+
+.middleLineShadow {
+  box-shadow: 3px 3px 8px rgb(222, 51, 51), -3px -3px 8px rgb(222, 51, 51);
+
+}
+
+.middleLineAWinner {
+  box-shadow: 3px 3px 8px rgb(249, 0, 0), -3px -3px 8px rgb(58, 192, 50);
+}
+
+.middleLineBWinner {
+  box-shadow: 3px 3px 8px rgb(58, 192, 50), -3px -3px 8px rgb(249, 0, 0);
+}
+
+.middleLineDot {
+  border-radius: 50px;
+  background: #614848;
+  box-shadow: 1px 1px 2px #1b1919, -1px -1px 2px #6d6464;
+  height: 5%;
+  width: 126px;
+}
+
+.playerBTable {
+
+  border-radius: 20px;
+  background-color: rgb(41, 40, 40);
+  /* height: 61%; */
+  /* position: absolute; */
+  width: 40%;
+  margin-left: 3%;
+  height: 100%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.winnerPoster {
+  border-radius: 50px;
+  background: #850707;
+  box-shadow: inset 22px 22px 43px #710606,
+    inset -22px -22px 43px #990808;
+}
+
+.winnerPosterText {
+  color: #929090;
+  font-weight: bold;
+  text-shadow: rgba(195, 195, 195, 0.83) 9px 3px 9px;
+  /* margin-top: 100%; */
+  font-size: 12px;
+}
+
+.winnerPosterText.p {
+  margin-bottom: 0rem;
+}
+
+.rotateByMinus45 {
+  border-radius: 5px;
+  position: relative;
+  transform-origin: 50% 0;
+  animation: moveItMinus45 1.5s ease-in-out infinite;
+
+}
+
+.rotateBy45 {
+  /* transform-origin: 50% 0;
+    transition: transform 150ms ease; */
+  border-radius: 5px;
+  position: relative;
+  transform-origin: 50% 0;
+  animation: moveIt45 1.5s ease-in-out infinite;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.thread {
+  /* display: inline-block; */
+  /* background: black; */
+  border-radius: 5px;
+  position: relative;
+  transform-origin: 50% 0;
+  animation: moveIt 2.5s ease-in-out infinite;
+}
+
+.thread:after {
+  content: "";
+  /* position: absolute; */
+  /* width: 5px;
+    height: 5px; */
+  border-radius: 50%;
+  /* background: red; */
+  /* border: 2px solid white; */
+  /* top: -4.5px;
+    left: -3.5px; */
+}
+
+.pendulum {
+
+  border-radius: 10%;
+  top: 97%;
+  height: 8%
+}
+
+.shadow {
+  width: 30px;
+  height: 15px;
+  background: rgba(236, 233, 233, 0.2);
+  border-radius: 50%;
+  margin: 50px auto 0;
+  animation: moveShade 1.25s ease-in-out alternate infinite;
+}
+
+.winnerTableLight {
+  box-shadow: 8px 8px 16px rgb(62, 222, 51), -8px -8px 16px rgb(47, 68, 44);
+}
+
+.normalTableLight {
+  box-shadow: 8px 8px 16px rgb(222, 51, 51), -8px -8px 16px rgb(62, 53, 53);
+}
+
+.selectPlayerB,
+.selectPlayerA {
+  /* color: rgb(146, 144, 144); */
+  color: #424242;
+  font-size: x-large;
+  font-weight: bold;
+  /* margin-top: 7.5%; */
+  text-shadow: rgba(0, 0, 0, 0.83) 9px 3px 9px;
+  border-radius: 20px;
+  background: rgb(47, 47, 47);
+  /* display:block */
+
+}
+
+.successSelectedPlayerBox {
+  box-shadow: 8px 8px 16px rgb(62, 222, 51), -8px -8px 16px rgb(47, 68, 44);
+  cursor: pointer;
+
+
+}
+
+.yetToSelectPlayerBox {
+  box-shadow: rgb(247, 40, 40) 8px 8px 16px, rgb(255, 0, 0) -8px -8px 16px;
+  cursor: pointer;
+
+
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+.disableDiv {
+  opacity: 0.1;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.inputAmtDiv {
+  /* position: absolute;  */
+  /* display: flex; */
+  /* margin-top: 13%; */
+  /* left: 46%; */
+  /* height: 8%; */
+  box-shadow: rgb(72, 72, 72) 8px 8px 16px, rgb(0, 0, 0) -8px -8px 16px;
+  /* width: 8%; */
+  border-radius: 20px;
+  width: 100%;
+}
+
+.inputAmtBox {
+  background: #292828;
+  border: #e42727;
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.83) 9px 3px 9px;
+  width: 40%;
+  text-align: center;
+  color: #757575;
+  box-shadow: inset 20px 20px 60px #101010, inset -20px -20px 60px #404040;
+  border-radius: 6px;
+  background: #202427;
+  box-shadow: inset 5px 5px 10px #0d0e10,
+    inset -5px -5px 10px #333a3e;
+  border-color: white;
+
+}
+
+
+
+.DN {
+  display: none;
+}
+
+.pointerNone {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.plusBtn {
+  width: 30%;
+  border-radius: 10px;
+  background: #282828;
+  box-shadow: inset 20px 20px 60px #101010, inset -20px -20px 60px #404040;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  border-radius: 0px;
+  background: #202427;
+  box-shadow: inset 8px 8px 7px #0d0e10, inset -8px -8px 7px #333a3e;
+
+}
+
+
+
+
+HTML CSSResult Skip Results Iframe EDIT ON .plusBtn {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.plusBtn a {
+  color: #757575 !important;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #2f2f2f;
+  display: block;
+  position: relative;
+  /* padding: 20px 40px; */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  box-shadow: inset 0 1px 0 #c7bcb0, 0 10px 0 #000000;
+  border-radius: 5px;
+  border-radius: 0px;
+  background: #202427;
+  box-shadow: inset 8px 8px 7px #0d0e10, inset -8px -8px 7px #333a3e;
+}
+
+.plusBtn a:active {
+  top: 10px;
+  background-color: rgb(11, 238, 219);
+
+  -webkit-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.plusBtnn:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  /* position: absolute; */
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.placeBtn {
+  width: 100%;
+  border-radius: 10px;
+  background: #282828;
+  box-shadow: inset 20px 20px 60px #101010, inset -20px -20px 60px #404040;
+  cursor: pointer;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #000;
+
+}
+
+
+
+.playBtn {
+  border-radius: 75px;
+  background: #545454;
+  box-shadow: inset 82px 56px 56px #131313, inset 43px -73px 129px #636060;
+  /* bottom: 0; */
+  /* width: 88%; */
+  /* height: 27%; */
+  /* margin-left: 9%; */
+  /* display: flex; */
+  /* text-align: center; */
+  justify-content: center;
+  /* flex-direction: column; */
+  color: #929090;
+  font-size: x-large;
+  font-weight: bold;
+  cursor: pointer;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+
+
+}
+
+.playBtn:hover {
+  background-color: #3e8e41
+}
+
+.playBtn:active {
+  background-color: rgb(126, 123, 123);
+  box-shadow: 0 5px rgb(3, 3, 3);
+  transform: translateY(4px);
+}
+
+
+
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes moveIt {
+
+  0%,
+  100% {
+    transform: rotate(25deg);
+  }
+
+  50% {
+    transform: rotate(-25deg);
+  }
+}
+
+@keyframes moveIt45 {
+
+  0%,
+  100% {
+    transform: rotate(40deg);
+  }
+
+  /* 50% {
+      transform: rotate(-35deg);
+    } */
+}
+
+@keyframes moveItMinus45 {
+
+  0%,
+  100% {
+    transform: rotate(-40deg);
+  }
+
+  /* 50% {
+      transform: rotate(-35deg);
+    } */
+}
+
+@keyframes moveShade {
+  0% {
+    transform: translateX(-220px) scale(1.4, .5);
+    filter: blur(20px);
+  }
+
+  50% {
+    filter: blur(3px);
+  }
+
+  100% {
+    transform: translateX(220px) scale(1.4, .5);
+    filter: blur(20px);
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .middleContainerTable {
+    flex-direction: column;
+    /* height: 35%!important; */
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    align-items: center;
+    height: 70vh !important;
+
+  }
+
+  .containeCoffee {
+    display: none !important;
+  }
+
+  .playerATable,
+  .playerBTable {
+    width: 90%;
+    height: 40% !important;
+  }
+
+  .middleLineContainer {
+    width: 90%;
+    padding: 5vh 0vh;
+    height: unset;
+
+  }
+
+  .playBtn {
+    writing-mode: unset;
+    text-orientation: upright;
+    letter-spacing: 10px;
+    /* padding: 0vh 18vh; */
+    /* display: block; */
+    width: 100%;
+  }
+
+  @keyframes moveIt {
+
+    0%,
+    100% {
+      bottom: -100px;
+    }
+
+    50% {
+      bottom: 100px;
+    }
+  }
+
+  @keyframes moveIt45 {
+
+    0%,
+    100% {
+      bottom: 100px;
+    }
+
+    /* 50% {
+        transform: rotate(-35deg);
+      } */
+  }
+
+  @keyframes moveItMinus45 {
+
+    0%,
+    100% {
+      bottom: -100px;
+    }
+
+    /* 50% {
+        transform: rotate(-35deg);
+      } */
+  }
+
+  .blockWinn {
+    margin-left: unset;
+    width: 5vh;
+    height: 5vh;
+  }
+}

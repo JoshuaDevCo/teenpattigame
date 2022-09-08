@@ -1,0 +1,68 @@
+.userinfodiv{
+    height: 8%;
+    width: 100%;   
+    top: 0;
+    border-top: solid; 
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-color: gray; 
+    background-color: red;
+    border-radius: 10px;
+    background: rgb(43, 37, 37);
+    box-shadow: 8px 8px 16px #bebebe,-8px 0px 16px #ffffff;
+    display: inline;
+    
+}
+
+.leftDiv{
+    width:33%
+}
+.rightDiv{
+    width:33%;
+    /* margin-right: 1%; */
+}
+.centerDiv{
+    width:34%
+}
+
+.timer{
+    color:#929090;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.userinfodivRight{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+.flexCenter{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color:#929090;
+    border-bottom: solid;
+    /* height: 13%; */
+}
+
+.addBtn{
+    background-color: transparent;
+    /* border: none; */
+    /* font-size: 25px; */
+    cursor: pointer;
+    padding: 2.1%;
+    font-weight: bold;
+    background: red;
+    /* border-radius: 8px;
+    border-radius: 7px; */
+    background: #929292;
+    box-shadow: inset 5px 5px 17px #4e4e4e, inset -5px -5px 17px #656262;
+    /* width: 90%; */
+    /* width: 20%; */
+    height: 100%;
+    margin-left:3%;
+    border-radius:10%
+}
